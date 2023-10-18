@@ -76,7 +76,7 @@ mytool --delete [ID]
 ```bash
 mytool --find [NAME]
 ```
-![Alt text](image.png)
+![Alt text](images/demo.PNG)
 
 ## Conclusion
 
