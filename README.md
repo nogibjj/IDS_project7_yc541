@@ -1,5 +1,3 @@
-[![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
-
 # Package a Python Script into a Command-Line Tool
 
 ## Introduction
@@ -31,6 +29,7 @@ The tool's creation process involved the following steps:
 5. **Packaging the Project**: Using the command `python setup.py sdist`, we can generate a source distribution of the project.
 
 6. **Install Locally**: With `pip install .`, we instruct pip to install the package locally. This command will use `setup.py` to identify the project dependencies and install them.
+![Alt text](images/install.PNG)
 
 ## User Guide
 
@@ -77,6 +76,7 @@ mytool --delete [ID]
 ```bash
 mytool --find [NAME]
 ```
+![Alt text](image.png)
 
 ## Conclusion
 
