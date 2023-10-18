@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'mytool = myscript:main',
+            'mytool = mytool.myscript:main',
         ],
     },
     install_requires=[
